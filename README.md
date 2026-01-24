@@ -8,3 +8,6 @@ This project provides standalone JavaScript applets to display and navigate game
 * **tcreplay.js**: The replayer logic for Chess (PGN).
 * **tdreplay.js**: The replayer logic for Draughts (PDN).
 * **replay.css**: The shared styling for both boards.
+
+---
+**Created by Klaas Bor**
