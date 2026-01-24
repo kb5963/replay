@@ -1599,52 +1599,6 @@ span.tdcolors
   background-color: #99D0F5;
 }
 
-.enota-container
-{
-  height: 100%;
-  width: 100%;
-  display: table;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  font-family: Helvetica Neue, Roboto, sans-serif;
-  font-size: 15px;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-}
-
-.enota-moves-container
-{
-  height: 100%;
-  width: 100%;
-  position: relative;
-  display: table-row;
-}
-
-.enota-imoves-container
-{
-  height: 100%;
-  width: 100%;
-  position: relative;
-}
-
-.emovesPanel
-{
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  position: absolute;
-  padding: 8px;
-  padding-right: 50px;
-  line-height: 1.55em;
-  background-color: #F2EEE5;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
 .tooltip
 {
   position: fixed;
@@ -1713,31 +1667,6 @@ input:checked + .switch
 input:checked + .switch .slider
 {
   transform: translateX(24px);
-}
-
-.threat-off
-{
-  margin-left: 20px;
-  background-image: url("images/engine/threat_off.png"), linear-gradient(to bottom, #d9d9d9 0%, #d9d9d9 50%, #cacaca 50%, #dddddd 100%);
-}
-
-.threat-on
-{
-  margin-left: 20px;
-  background-image: url("images/engine/threat_on.png"), linear-gradient(to bottom, #d9d9d9 0%, #d9d9d9 50%, #cacaca 50%, #dddddd 100%);
-}
-
-.threat-inactive
-{
-  margin-left: 20px;
-  background-image: url("images/engine/threat_off.png"), linear-gradient(to bottom, #eeeeee 0%, #eeeeee 50%, #dddddd 50%, #f0f0f0 100%);
-  filter: grayscale(100%) opacity(0.6);
-  cursor: not-allowed;
-}
-
-.engineSettings
-{
-  background-image: url("images/replay/Settings.png"), linear-gradient(to bottom, #d9d9d9 0%,#d9d9d9 50%,#cacaca 50%,#dddddd 100%);
 }
 
 .settingsDialog
